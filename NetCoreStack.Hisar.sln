@@ -45,6 +45,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Library", "test\shar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hisar.Component.ContentManagement", "test\components\Hisar.Component.ContentManagement\Hisar.Component.ContentManagement.csproj", "{41B9F8F9-A41B-4B34-BE5B-9C80955B92B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hisar.Component.Guest", "test\components\Hisar.Component.Guest\Hisar.Component.Guest.csproj", "{24F3F16C-571B-4B45-A788-96668CEE592B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +105,10 @@ Global
 		{41B9F8F9-A41B-4B34-BE5B-9C80955B92B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41B9F8F9-A41B-4B34-BE5B-9C80955B92B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41B9F8F9-A41B-4B34-BE5B-9C80955B92B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24F3F16C-571B-4B45-A788-96668CEE592B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F3F16C-571B-4B45-A788-96668CEE592B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F3F16C-571B-4B45-A788-96668CEE592B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F3F16C-571B-4B45-A788-96668CEE592B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -123,6 +129,7 @@ Global
 		{78342CF0-FAFF-4FC8-A126-10B5610E441A} = {5CA075E2-B2E1-4D94-B0EF-4CB1BBB0D45A}
 		{F975485D-47C8-47B6-AC21-E0A494F5559F} = {78342CF0-FAFF-4FC8-A126-10B5610E441A}
 		{41B9F8F9-A41B-4B34-BE5B-9C80955B92B0} = {181B8C0C-9FAD-40C0-AE0A-257843CFF03C}
+		{24F3F16C-571B-4B45-A788-96668CEE592B} = {181B8C0C-9FAD-40C0-AE0A-257843CFF03C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6797C236-8739-450E-A68C-1807245629AF}

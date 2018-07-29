@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="mainGuestContainer">
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Adı Soyadı</th>
+                <th>Ziyaret Tarihi</th>
+                <th>Ziyaret Sebebi</th>
+                <th>Ziyaret Edilen</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Taha İpek</td>
+                <td>12/07/2018 15:45</td>
+                <td>Özel</td>
+                <td>Seçkin Bedük</td>
+            </tr>
+            <tr>
+                <td>Can Perk</td>
+                <td>12/07/2018 16:12</td>
+                <td>Toplantı</td>
+                <td>Seçkin Bedük</td>
+            </tr>
+            <tr>
+                <td>Gencebay Demir</td>
+                <td>13/07/2018 11:02</td>
+                <td>Toplantı</td>
+                <td>Seçkin Bedük</td>
+            </tr>
+            <tr>
+                <td>Yavuz Kayar</td>
+                <td>13/07/2018 13:17</td>
+                <td>Özel</td>
+                <td>Cemil Uzun</td>
+            </tr>
+        </tbody>
+    </table>
+
+    @(await Component.InvokeAsync<GuestViewComponent>())
+</div>
